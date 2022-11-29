@@ -1,0 +1,130 @@
+body
+{
+    background-image: url(fondo\ gypsy.jpeg);
+    background-position: center center;	  
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1
+{
+    color: hsl(130, 70%, 27%);
+    font-family: Impact;
+}
+h3
+{
+    color:hsl(0, 0%, 4%)
+}
+p
+{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15 px;
+}
+
+h2
+{
+    color: #06641a;
+    font-family: Verdana;
+    font-size: 25 px;
+}
+
+h4
+{
+	color:aqua
+}
+b
+{
+    font-family: Georgia;
+    color: #168136;
+    
+}
+u
+{
+    font-family: calibri;
+    color: #14631e;
+}
+/*INICIO DE MENU*/
+.menuCSS3 ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a{
+    display: block;
+    padding: 1em;
+    background-color: #3cbdf9;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover 
+{
+    background-color: #3bcc6b;
+
+}
+.menuCSS3 ul li ul{
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover
+{
+    display: block;
+}
+/*FIN DE MENU*/
+/*INICIO DE BANNER*/
+.responsive-banner {
+	margin: 80px auto;
+	width: 40%;
+	min-width: 230px;
+	max-width: 330px;
+	position: relative;
+	height: auto;
+	min-height: 300px;
+	max-height: 700px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #15ff00, #ff0000);
+}
+.container-envelope {
+	padding: 35px 15px;
+	color: #fff;
+}
+img {
+	max-width : 330px;
+	width: 100%;
+	position: relative;
+}
+span:after,
+span:before {
+	content: "";
+	position: absolute;
+	display: block;
+	bo33er-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 50px;
+	height: 50px;
+}
+.circle-a:before {
+	width: 500px;
+	height: 500px;
+	top: -300px; left: 52%;
+	-w33kit-transform: translate(-100%,0);
+	-ms-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+.circle-a:after {
+	top: 160px;
+	right: 10%;
+}
+.circle-b:before {
+	top: 60%;
+	left: -25px;
+}
+.circle-b:after {
+	width: 150px;
+	height: 150px;
+	bottom: -70px;
+	right: -70px;
+}
